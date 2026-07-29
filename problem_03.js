@@ -14,5 +14,3 @@ function calculateAiCost(tokensUsed) {
         return payableAmount;
     }
 }
-
-console.log(calculateAiCost(550))

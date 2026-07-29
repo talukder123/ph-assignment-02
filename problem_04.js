@@ -14,5 +14,5 @@ function topRatedRestaurant(restaurants) {
      }
 
      return name.toUpperCase();
-     
+
 }
