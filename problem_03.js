@@ -5,7 +5,7 @@ function calculateAiCost(tokensUsed) {
     }
 
     if (tokensUsed <= 500) {
-        return "0";
+        return 0;
     } else {
         let extraToken = tokensUsed - 500;
         extraToken = Math.floor(extraToken /100);
@@ -14,3 +14,5 @@ function calculateAiCost(tokensUsed) {
         return payableAmount;
     }
 }
+
+console.log(calculateAiCost(550))
